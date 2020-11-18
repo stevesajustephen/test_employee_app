@@ -1,0 +1,40 @@
+login 
+
+endPoint - localhost:3000/admin/login
+
+body example -
+
+{
+"userName"
+:
+"superAdmin",
+"password"
+:
+"superAdmin"}
+
+
+
+add employee
+
+endPoint - localhost:3000/employees post
+
+body - example
+
+{"firstName": "emp1",
+"lastName": "emp1",
+"emailId": "emp1@gmail.com",
+"eId":1111,
+"phoneNo":9999999999
+}
+
+endPoints to get employees 
+
+localhost:3000/employees
+
+with - date range example
+
+localhost:3000/employees/date-range/1605597719000/1605684262000
+
+with name filter example
+
+localhost:3000/employees/first/last
